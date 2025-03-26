@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="parallel-suite" parallel="classes" thread-count="2"> 
+    <test name="parallel-tests">
+        <classes>
+            <class 
+                name= "edep.seleniumLearning.app.tests.WebFormTest"/> 
+            <class 
+                name= "edep.seleniumLearning.app.tests.WebFormTestCopy"/> 
+        </classes>
+    </test>
+</suite>
